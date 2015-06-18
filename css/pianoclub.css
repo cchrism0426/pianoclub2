@@ -5,37 +5,52 @@ body {
 
 .container {
 	text-align: center;
-	position: relative;
-	margin-right: 100px;
-	margin-left: 100px;
 	color: #000000;
-	padding: 50px;
-	border-radius: 20px;
 	font-size:1.5em;
+	display: inline-block;
+	width: 66.6666%;
+	float:left;
 }
 
 .navbar {
-	position: relative;
+	display: inline-block;
+	float:left;
+	height: 100%;
+	width: 33.3333%;
+	color:white;
 	list-style: none;
-	padding: 25px;
 	text-align: center;
 	background-color: black;
 	font-size:2em;
-	margin: 0 0 0 0;
+}
+
+.navbar ul {
+	margin: 0;
+	padding: 0;
 }
 
 .navbar li {
-	display: inline;
-	margin: 0;
-	padding: 10px;
+	background-color: purple;
+	padding: 25px;
+	margin: 5px;
+	list-style: none;
+	list-style-position: outside;
+	display: block;
 }
 
 .navbar a {
-	display: inline-block;
+	display: block;
 	text-decoration: none;
-	color:white;
+	color: white;
+	display: block;
 }
 
 .content {
 	margin: 50px;
+	display: relative;
+}
+
+.content p {
+	text-align:left;
+	font-family: sans-serif;
 }
