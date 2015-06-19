@@ -4,17 +4,17 @@
 }
 
 body {
-	background-color: #006e6e;
+	background-color: white;
 	font-family: "PT Serif";
 }
 
 .navbar {
 	float:left;
 	position: static;
+	background-color: black;
 	color: white;
 	list-style: none;
 	text-align: center;
-	background-color: transparent;
 	font-size:50px;
 	width: 100%;
 	overflow: visible;
@@ -53,33 +53,16 @@ body {
 
 .content p {
 	text-align:left;
-	font-family: sans-serif;
 }
 
 .container {
 	text-align: center;
-	color: white;
+	color: black;
 	font-size:16px;
 	width: 100%;
 }
 
-<<<<<<< HEAD
 @font-face {
 	font-family: "PT Serif";
 	src: url("fonts/pt-serif/PTF55F.ttf");
-=======
-img
-{
-	
-}
-
-#link:hover
-{
-	color:purple;
-}
-
-h2
-{
-	text-align: center;
->>>>>>> origin/master
 }

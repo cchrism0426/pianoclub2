@@ -1,0 +1,39 @@
+.officer {
+	display: block;
+	clear: both;
+	margin: 20px 100px 20px 100px;
+	background-color: #cccccc;
+	height: 500px;
+	width: auto;
+}
+
+.pics {
+	display: inline-block;
+	float: left;
+	width: 500px;
+	height: 500px;
+	border-size: 5px;
+	border-color: black;
+}
+
+.namebio {
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+
+#melody {
+	background-image: url("http://placehold.it/500x500");
+}
+
+#gary {
+	background-image: url("http://placehold.it/500x500");
+}
+
+#andrew {
+	background-image: url("http://placehold.it/500x500");
+}
+
+#chris {
+	background-image: url("http://placehold.it/500x500");
+}
