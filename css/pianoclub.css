@@ -63,7 +63,23 @@ body {
 	width: 100%;
 }
 
+<<<<<<< HEAD
 @font-face {
 	font-family: "PT Serif";
 	src: url("fonts/pt-serif/PTF55F.ttf");
+=======
+img
+{
+	
+}
+
+#link:hover
+{
+	color:purple;
+}
+
+h2
+{
+	text-align: center;
+>>>>>>> origin/master
 }
