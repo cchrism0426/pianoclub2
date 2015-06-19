@@ -8,6 +8,10 @@ body {
 	font-family: 'Slabo 27px', serif;
 }
 
+a {
+	background-color:transparent;
+}
+
 .navbar {
 	float:left;
 	position: initial;
@@ -28,7 +32,6 @@ body {
 
 .navbar li {
 	position: inherit;
-	padding: 5px 50px 5px 50px;
 	margin: 0;
 	list-style: none;
 	display: inline-block;
@@ -38,11 +41,11 @@ body {
 	display: block;
 	text-decoration: none;
 	color: white;
-	display: block;
+	padding: 5px 50px 5px 50px;
 }
 
 .navbar li:hover {
-	background-color: #A6A6A6;
+	background-color: #878787;
 }
 
 .content {
