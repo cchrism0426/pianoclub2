@@ -1,29 +1,23 @@
 .officer {
-	display: block;
-	clear: both;
     margin:25px 0px 25px 0px;
 	background-color: #acacac;
-	height: 500px;
-	width: auto;
 	padding: 20px;
-	position: relative;
 }
 
 .pics {
-	display: inline-block;
 	float: left;
 	width: 500px;
 	height: 500px;
 	border-width: 5px;
 	border-color: #115157;
 	border-style: solid;
+	margin-right: 50px;
 }
 
 .namebio {
-	display: inline-block;
 	font-size: 1.5em;
-	float: left;
-	margin-left: 50px;
+	overflow: hidden !important;
+	text-align: left;
 }
 
 #melody {

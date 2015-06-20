@@ -48,6 +48,7 @@ p {
 
 .navbar a:hover, .current {
 	text-decoration: underline;
+	color: #f6f792;
 }
 /*nav bar end*/
 
