@@ -3,6 +3,7 @@
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/pianoclub.css">
+		<link rel="stylesheet" type="text/css" href="css/meetingnotes.css">
 		<title>
 			Meeting Notes - Lynbrook Piano Club
 		</title>
@@ -14,28 +15,36 @@
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="events.html">Events</a></li>
-				<li><a href="meetingnotes.html">Meeting Notes</a></li>
+				<li class="current"><a href="meetingnotes.html">Meeting Notes</a></li>
 				<li><a href="officers.html">Officers</a></li>
 				<li><a href="contact.html">Contact Us</a></li>
 			</ul>
 		</div>
 
 		<!-- meat -->
-		<div class = "container"  >
-			<a id="link" href="">This Week's Presentation</a>
-			<iframe id= "presentation" src="https://docs.google.com/presentation/d/1mcOPv-Nd5f9nG-IqCzLX_Zg_VZTqTFMH8rDzvMtMvGw/embed?start=false&loop=false&delayms=10000"+
-			frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-			<a id = "link" href="">Past Presentations</a>
-			<h2>Reminders</h2>
-			<ul>
+		<div class = "container" >
+			<div id="presentation">
+				<div id="slide">
+					<iframe id= "presentation" class="content" src="https://docs.google.com/presentation/d/1mcOPv-Nd5f9nG-IqCzLX_Zg_VZTqTFMH8rDzvMtMvGw/embed?start=false&loop=false&delayms=10000"+
+					frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+				</div>
+				<br>
+				<a id="link" href="#" class="present-link">This Week's Presentation</a> 
+				<br>
+				<a id = "link" href="#" class="present-link">Past Presentations</a>
+			</div>
+			<div id="reminders" class="content">
+				<h2>Reminders</h2>
+			</div>
+			<div id="potw" class="content">
+				<h2>Piece of the Week</h2>
+				<ul>
+					<li>Name:</li>
+					<li>Link:</li>
+					<li>Description:</li>
+				</ul>
+			</div>
 
-			</ul>
-			<h2>Piece of the Week</h2>
-			<ul>
-				<li>Name:</li>
-				<li>Link:</li>
-				<li>Description:</li>
-			</ul>
 		</div>
 	</body>
 </html>

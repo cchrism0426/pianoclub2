@@ -1,10 +1,12 @@
 .officer {
 	display: block;
 	clear: both;
-	margin: 20px 100px 20px 100px;
-	background-color: #cccccc;
+    margin:25px 0px 25px 0px;
+	background-color: #acacac;
 	height: 500px;
 	width: auto;
+	padding: 20px;
+	position: relative;
 }
 
 .pics {
@@ -12,14 +14,16 @@
 	float: left;
 	width: 500px;
 	height: 500px;
-	border-size: 5px;
-	border-color: black;
+	border-width: 5px;
+	border-color: #115157;
+	border-style: solid;
 }
 
 .namebio {
 	display: inline-block;
-	margin-top: 20px;
 	font-size: 1.5em;
+	float: left;
+	margin-left: 50px;
 }
 
 #melody {

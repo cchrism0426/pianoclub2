@@ -1,10 +1,11 @@
 * {
 	margin: 0;
 	padding: 0;
+	overflow: auto;
 }
 
 body {
-	background-color: white;
+	background-color: #daede2;
 	font-family: "TrendSansOne";
 }
 
@@ -15,21 +16,20 @@ p {
 /*Navigation Bar*/
 .navbar {
 	position: static;
-	background-color: transparent;
-	color: black;
+	background-color: #333745;
 	list-style: none;
 	text-align: center;
 	font-size:20px;
 	width: 100%;
-	margin-top: 100px;
 	margin-bottom: 0px;
 	padding: 10px 0px 10px 0px;
+	height: 500px;
 }
 
 .navbar ul {
-	margin: 0;
+	margin-top: 470px;
 	padding: 0;
-	position: inherit;
+	position: relative;
 }
 
 .navbar li {
@@ -42,19 +42,18 @@ p {
 .navbar a {
 	display: block;
 	text-decoration: none;
-	color: black;
+	color: #f6f792;
 	padding: 5px 50px 5px 50px;
 }
 
-.navbar li:hover {
-	text-decoration-color: #878787;
+.navbar a:hover, .current {
 	text-decoration: underline;
 }
 /*nav bar end*/
 
 .container {
 	text-align: center;
-	color: black;
+	color: #333745;
 	position: static;
 	display: block;
 	margin:0px 125px 0px 125px;
@@ -73,6 +72,7 @@ p {
 	display: block;
 	margin: 25px 0px 25px 0px;
 	overflow: auto;
+	color: #333745;
 }
 
 .content h1, h2, p {
@@ -84,6 +84,7 @@ p {
 	font-size: 40px;
 	position: relative;
 	top: 0;
+	vertical-align: top;
 }
 
 .content p {
@@ -113,6 +114,7 @@ p {
 	src: url("fonts/trendsansone.woff");
 }
 
+/*for informational text*/
 @font-face {
 	font-family: "Proxima Nova Light";
 	src:url("fonts/proxima-nova/ProximaNova-Light.otf");
