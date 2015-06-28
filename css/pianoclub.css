@@ -5,76 +5,109 @@
 }
 
 body {
-	background-color: #daede2;
-	font-family: "TrendSansOne";
+	font-family: 'PT Serif';
 }
 
 p {
-	font-family: "Proxima Nova Light" !important;
+	font-family: 'Open Sans' !important;
 }
 
-/*Navigation Bar*/
 .navbar {
-	position: static;
-	background-color: #333745;
+	position: fixed;
+	background-color: #191919;
 	list-style: none;
 	text-align: center;
-	font-size:20px;
-	width: 100%;
-	margin-bottom: 0px;
-	padding: 10px 0px 10px 0px;
+	font-size:25px;
+	width: 20%;
+	margin: 0;
+	padding: 0;
 	height: auto;
+	top: 0px;
+	bottom: 0px;
 }
 
 .navbar ul {
-	margin-top: 400px;
+	margin-top: 50px;
+	display: block;
 	padding: 0;
 	position: relative;
+	font-family: 'Open Sans';
+	font-size: 30px;
+	text-align: right;
 }
 
 .navbar li {
 	position: inherit;
 	margin: 0;
+	padding: 10px 0px 10px 0px;
 	list-style: none;
-	display: inline-block;
+	display: block
 }
 
 .navbar a {
 	display: block;
 	text-decoration: none;
-	color: #f6f792;
+	color: #fff;
 	padding: 5px 50px 5px 50px;
 }
 
 .navbar a:hover, .current {
-	text-decoration: underline;
-	color: #f6f792;
+	color: #ffdf00;
 }
-/*nav bar end*/
+
+#club-logo {
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin: 30px 20px 30px 20px;
+}
+
+#club-logo:before {
+	font-size: 75px;
+	content: "Lynbrook Piano Club"; /* temporary */
+	font-family: 'Lobster';
+}
 
 .container {
 	text-align: center;
-	color: #333745;
-	position: static;
-	display: block;
-	margin:0px 125px 0px 125px;
+	background-color: white;
+	position: absolute;
+	width: 80%;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 .intro {
-	background-image: url("http://placehold.it/500x500");
 	text-align: center;
-	padding: 125px 0px 125px 0px;
+	padding: 300px 0px 300px 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: 'Merriweather';
+	line-height: 2;
+}
+
+.intro h1 {
+	font-size: 60px;
+}
+
+.intro h2 {
+	text-transform: uppercase;
+	font-size: 75px;
 }
 
 .content {
-	display: block;
-	margin: 50px 0px 50px 0px;
-	color: #333745;
+	padding: 0px 30px 0px 30px;
+	margin: 0px 200px 150px 200px;
 }
 
-.content h1, h2, p {
+.content h1, h2 {
+	text-align: center;
+}
+
+.content p {
 	text-align:left;
 	line-height: 1.5;
 }
