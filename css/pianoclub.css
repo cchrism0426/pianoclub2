@@ -1,39 +1,39 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+@import url('http://fonts.googleapis.com/css?family=Merriweather');
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+@import url('http://fonts.googleapis.com/css?family=Bree+Serif');
+
 * {
 	margin: 0;
 	padding: 0;
-	overflow: auto;
 }
 
 body {
-	font-family: 'PT Serif';
-}
-
-p {
-	font-family: 'Open Sans' !important;
+	font-family: serif;
+	background-color: white;
 }
 
 .navbar {
-	position: fixed;
-	background-color: #191919;
+	position: static;
+	background-color: #fff;
 	list-style: none;
 	text-align: center;
 	font-size:25px;
-	width: 20%;
 	margin: 0;
-	padding: 0;
-	height: auto;
-	top: 0px;
-	bottom: 0px;
+	padding: 50px 0px 50px 0px;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 1;
 }
 
 .navbar ul {
-	margin-top: 50px;
-	display: block;
+	display: inline-block;
 	padding: 0;
-	position: relative;
-	font-family: 'Open Sans';
-	font-size: 30px;
-	text-align: right;
+	font-family: serif;
+	font-size: 25px;
+	text-align: center;
 }
 
 .navbar li {
@@ -41,66 +41,78 @@ p {
 	margin: 0;
 	padding: 10px 0px 10px 0px;
 	list-style: none;
-	display: block
+	display: inline;
 }
 
 .navbar a {
-	display: block;
-	text-decoration: none;
-	color: #fff;
+	display: inline;
 	padding: 5px 50px 5px 50px;
+	text-decoration: none;
+	color: #8e8e8e;
 }
 
 .navbar a:hover, .current {
-	color: #ffdf00;
+	color: #000 !important;
 }
 
 #club-logo {
-	color: #fff;
 	display: block;
 	text-align: center;
-	margin: 30px 20px 30px 20px;
-}
-
-#club-logo:before {
-	font-size: 75px;
-	content: "Lynbrook Piano Club"; /* temporary */
-	font-family: 'Lobster';
+	height: 200px;
+	width: 100%;
 }
 
 .container {
 	text-align: center;
-	background-color: white;
-	position: absolute;
-	width: 80%;
+	background-color: transparent;
 	right: 0px;
 	top: 0px;
 	bottom: 0px;
-	margin: 0px;
+	margin-left: 15vw;
+	margin-right: 15vw;
 	padding: 0px;
 }
 
-.intro {
+#intro {
+	height: 40vh;
 	text-align: center;
-	padding: 300px 0px 300px 0px;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: cover;
-	font-family: 'Merriweather';
+	font-family: serif;
 	line-height: 2;
+	position: relative;
+	border-width: 5px;
+	border-style: solid;
+	display: relative;
 }
 
-.intro h1 {
+#intro-content {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+#intro-content h1 {
 	font-size: 60px;
+	color: #333333;
 }
 
-.intro h2 {
+#intro-content h2 {
 	text-transform: uppercase;
 	font-size: 75px;
+	color: #333333;
 }
 
 .content {
-	padding: 0px 30px 0px 30px;
-	margin: 0px 200px 150px 200px;
+	padding:;
+	line-height: 2;
+	font-family: serif;
+	overflow: auto;
+	color: #333333;
+	border-width: 5px;
+	border-style: solid;
+	position: relative;
 }
 
 .content h1, h2 {
@@ -109,46 +121,69 @@ p {
 
 .content p {
 	text-align:left;
-	line-height: 1.5;
 }
 
 .content h1 {
-	font-size: 40px;
+	font-size: 30px;
 	position: relative;
 	top: 0;
 	vertical-align: top;
 }
 
 .content p {
-	font-size: 25px;
+	font-size: 16px;
 }
 
 .index-info {
-	width: auto;
 	overflow: hidden;
+	position: absolute;
+	border-width: 5px;
+	border-style: solid;
+
 }
 
-.index-pic {
+#club-info {
 	display: block;
-	float: right;
-	margin-left: 50px;
+	height: 40vh;
+	overflow: hidden;
+	border-width: 5px;
+	border-style: solid;
 }
 
-/* Fonts */
+#club-info > .index-info {
+	float: left;
+	width: 30%;
+}
+
+#meeting-info {
+	height: 40vh;
+	display: block;
+	overflow: hidden;
+	border-width: 5px;
+	border-style: solid;
+}
+
+#meeting-info > .index-info {
+	float: right;
+	width: 30%;
+}
+
 @font-face {
 	font-family: "PT Serif";
 	src: url("fonts/pt-serif/PTF55F.ttf");
 }
 
-/*for headings and bold text*/
 @font-face {
 	font-family: "TrendSansOne";
 	src: url("fonts/trendsansone.woff");
 }
 
-/*for informational text*/
 @font-face {
 	font-family: "Proxima Nova Light";
 	src:url("fonts/proxima-nova/ProximaNova-Light.otf");
 }
-/*fonts end*/
+
+@font-face {
+	font-family: 'Lekton';
+	src: url('fonts/lekton/Lekton-Regular.ttf');
+}
