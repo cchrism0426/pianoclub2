@@ -18,6 +18,7 @@ body {
 }
 
 .navbar {
+	display: block;
 	font-family: 'PT Sans';
 	background-color: #fff;
 	text-align: center;
@@ -29,8 +30,9 @@ body {
 }
 
 .menuBar {
-
-
+	margin-left: 10%;
+	margin-right: 10%;
+	display: relative;
 }
 
 .button {
@@ -39,6 +41,7 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	height: 100%;
+	width: 16%;
 	float: left;
 }
 
