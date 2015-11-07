@@ -1,37 +1,22 @@
 .officer {
-    margin:25px 0px 25px 0px;
-	background-color: #acacac;
-	padding: 20px;
-}
-
-.pics {
-	float: left;
-	width: 500px;
-	height: 500px;
-	border-width: 5px;
-	border-color: #115157;
-	border-style: solid;
-	margin-right: 50px;
-}
-
-.namebio {
-	font-size: 1.5em;
-	overflow: hidden !important;
-	text-align: left;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0px 3%;
 }
 
 #melody {
-	background-image: url("http://placehold.it/500x500");
+	background-image: url("http://placehold.it/150x150");
 }
 
 #gary {
-	background-image: url("http://placehold.it/500x500");
+	background-image: url("http://placehold.it/150x150");
 }
 
 #andrew {
-	background-image: url("http://placehold.it/500x500");
+	background-image: url("http://placehold.it/150x150");
 }
 
 #chris {
-	background-image: url("http://placehold.it/500x500");
+	background-image: url("http://placehold.it/150x150");
 }
