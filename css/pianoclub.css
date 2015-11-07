@@ -1,8 +1,5 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
-@import url('http://fonts.googleapis.com/css?family=Lobster');
-@import url('http://fonts.googleapis.com/css?family=Merriweather');
-@import url('http://fonts.googleapis.com/css?family=Oswald');
-@import url('http://fonts.googleapis.com/css?family=Bree+Serif');
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
 
 * {
 	margin: 0;
@@ -10,72 +7,63 @@
 }
 
 body {
-	font-family: serif;
-	background-color: white;
+	background-color: #fff;
+	font-family: "PT Sans";
+	font-size: 100%;
+}
+
+#logo {
+	display: block;
+	height: 150px;
 }
 
 .navbar {
-	position: static;
+	font-family: 'PT Sans';
 	background-color: #fff;
-	list-style: none;
 	text-align: center;
-	font-size:25px;
+	font-size: 1.5em;
+	width: 100%;
+	height: auto;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.menuBar {
+
+
+}
+
+.button {
 	margin: 0;
-	padding: 50px 0px 50px 0px;
-	right: 0;
-	left: 0;
-	top: 0;
-	z-index: 1;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	height: 100%;
+	float: left;
 }
 
-.navbar ul {
-	display: inline-block;
-	padding: 0;
-	font-family: serif;
-	font-size: 25px;
-	text-align: center;
-}
-
-.navbar li {
-	position: inherit;
-	margin: 0;
-	padding: 10px 0px 10px 0px;
-	list-style: none;
-	display: inline;
-}
-
-.navbar a {
-	display: inline;
-	padding: 5px 50px 5px 50px;
+.button a {
 	text-decoration: none;
-	color: #8e8e8e;
+	color: #000;
+	padding: 5px 50px 5px 50px;
+	height: 100%;
 }
 
 .navbar a:hover, .current {
-	color: #000 !important;
-}
-
-#club-logo {
-	display: block;
-	text-align: center;
-	height: 200px;
-	width: 100%;
+	background-color: #e4e4e4;
 }
 
 .container {
 	text-align: center;
-	background-color: transparent;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
-	margin-left: 15vw;
-	margin-right: 15vw;
-	padding: 0px;
+	color: #000;
+	position: static;
+	display: block;
+	margin: 0px 125px 0px 125px;
 }
 
-#intro {
-	height: 40vh;
+.intro {
 	text-align: center;
+	padding: 50px 0px 50px 0px;
 	background-repeat: no-repeat;
 	background-color: transparent;
 	background-size: cover;
@@ -105,22 +93,18 @@ body {
 }
 
 .content {
-	padding:;
-	line-height: 2;
-	font-family: serif;
-	overflow: auto;
-	color: #333333;
-	border-width: 5px;
-	border-style: solid;
-	position: relative;
+	display: block;
+	margin:;
+	line-height: 1.75;
 }
 
 .content h1, h2 {
-	text-align: center;
+	text-align: left;
 }
 
 .content p {
 	text-align:left;
+	font-size: 1em;
 }
 
 .content h1 {
@@ -130,60 +114,7 @@ body {
 	vertical-align: top;
 }
 
-.content p {
-	font-size: 16px;
-}
-
-.index-info {
-	overflow: hidden;
-	position: absolute;
-	border-width: 5px;
-	border-style: solid;
-
-}
-
-#club-info {
-	display: block;
-	height: 40vh;
-	overflow: hidden;
-	border-width: 5px;
-	border-style: solid;
-}
-
-#club-info > .index-info {
-	float: left;
-	width: 30%;
-}
-
-#meeting-info {
-	height: 40vh;
-	display: block;
-	overflow: hidden;
-	border-width: 5px;
-	border-style: solid;
-}
-
-#meeting-info > .index-info {
-	float: right;
-	width: 30%;
-}
-
-@font-face {
-	font-family: "PT Serif";
-	src: url("fonts/pt-serif/PTF55F.ttf");
-}
-
-@font-face {
-	font-family: "TrendSansOne";
-	src: url("fonts/trendsansone.woff");
-}
-
 @font-face {
 	font-family: "Proxima Nova Light";
 	src:url("fonts/proxima-nova/ProximaNova-Light.otf");
-}
-
-@font-face {
-	font-family: 'Lekton';
-	src: url('fonts/lekton/Lekton-Regular.ttf');
 }

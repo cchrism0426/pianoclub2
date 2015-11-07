@@ -2,11 +2,6 @@
 	display: block;
 }
 
-#reminders {
-	display: block;
-	height: 500px; /* temporary */
-}
-
 #potw {
 	display: block;
 	text-align: left;
