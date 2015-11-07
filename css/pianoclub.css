@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,11 +8,8 @@
 
 body {
 	background-color: #fff;
-	font-family: "TrendSansOne";
-}
-
-p {
-	font-family: "Proxima Nova Light" !important;
+	font-family: "PT Sans";
+	font-size: 100%;
 }
 
 #logo {
@@ -19,46 +18,43 @@ p {
 }
 
 .navbar {
+	font-family: 'PT Sans';
 	background-color: #fff;
-	list-style: none;
 	text-align: center;
-	font-size:20px;
+	font-size: 1.5em;
 	width: 100%;
-	margin-bottom: 0px;
-	padding: 10px 0px 10px 0px;
 	height: auto;
 	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-bottom-color: #8e8e8e;
+	border-bottom-width: 1px;
 }
 
-.navbar ul {
-	padding: 0;
-	position: relative;
+.menuBar {
+
 }
 
-.navbar li {
-	position: inherit;
+.button {
 	margin: 0;
-	list-style: none;
-	display: inline-block;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	height: 100%;
+	float: left;
 }
 
-.navbar a {
+.button a {
 	text-decoration: none;
 	color: #000;
 	padding: 5px 50px 5px 50px;
+	height: 100%;
 }
 
 .navbar a:hover, .current {
-	text-decoration: underline;
-	color: #000;
+	background-color: #e4e4e4;
 }
-/*nav bar end*/
 
 .container {
 	text-align: center;
-	color: #333745;
+	color: #000;
 	position: static;
 	display: block;
 	margin: 0px 125px 0px 125px;
@@ -73,17 +69,17 @@ p {
 
 .content {
 	display: block;
-	margin: 0px 15vw 25vh 15vw;
-	color: #333745;
+	margin:;
 	line-height: 1.75;
 }
 
 .content h1, h2 {
-	text-align: center;
+	text-align: left;
 }
 
 .content p {
 	text-align:left;
+	font-size: 1em;
 }
 
 .content h1 {
@@ -91,34 +87,9 @@ p {
 	position: relative;
 	top: 0;
 	vertical-align: top;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
 }
 
-.content p {
-	font-size: 23px;
-}
-
-.index-info {
-	width: auto;
-	overflow: hidden;
-}
-
-/* Fonts */
-@font-face {
-	font-family: "PT Serif";
-	src: url("fonts/pt-serif/PTF55F.ttf");
-}
-
-/*for headings and bold text*/
-@font-face {
-	font-family: "TrendSansOne";
-	src: url("fonts/trendsansone.woff");
-}
-
-/*for informational text*/
 @font-face {
 	font-family: "Proxima Nova Light";
 	src:url("fonts/proxima-nova/ProximaNova-Light.otf");
 }
-/*fonts end*/
