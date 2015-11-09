@@ -27,13 +27,14 @@ body {
 	border-bottom-width: 1px;
 }
 
-.navbar>ul {
+.menu {
 	float: left;
 	width: 15%;
 	display: block;
+	height: 100%;
 }
 
-li.dropDownFirst {
+.dropDownFirst {
 	display: block;	
 	border-style: solid;
 	border-width: 1px;
@@ -47,7 +48,7 @@ li.dropDownFirst {
 	float: left;
 }
 
-.button a, li.dropDownFirst a {
+.button a, .dropDownFirst a {
 	display: block;
 	text-decoration: none;
 	color: #000;
@@ -55,18 +56,18 @@ li.dropDownFirst {
 	height: 100%;
 }
 
-.dropDown {
+.element {
 	display: block;
 	list-style: none;
 	border-style: solid;
 	border-width: 1px;
 }
 
-.button a:hover, li.dropDownFirst:hover {
+.button a:hover, .dropDownFirst:hover {
 	background-color: #e4e4e4;
 }
 
-.dropDown a {
+.element {
 	display: none;
 }
 
