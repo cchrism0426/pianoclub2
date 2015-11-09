@@ -18,30 +18,36 @@ body {
 }
 
 .navbar {
-	display: block;
+	list-style: none;
 	font-family: 'PT Sans';
 	background-color: #fff;
 	text-align: center;
-	width: 100%;
 	font-size: 1.5em;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 }
 
-.menuBar {
-	width: 100%;
+.navbar>ul {
+	float: left;
+	width: 15%;
+	display: block;
+}
+
+li.dropDownFirst {
+	display: block;	
+	border-style: solid;
+	border-width: 1px;
 }
 
 .button {
-	margin: 0 auto;
-	display: inline-block;
+	display: block;	
 	border-style: solid;
 	border-width: 1px;
-	height: 100%;
 	width: 15%;
+	float: left;
 }
 
-.button a {
+.button a, li.dropDownFirst a {
 	display: block;
 	text-decoration: none;
 	color: #000;
@@ -49,8 +55,19 @@ body {
 	height: 100%;
 }
 
-.button:hover {
+.dropDown {
+	display: block;
+	list-style: none;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.button a:hover, li.dropDownFirst:hover {
 	background-color: #e4e4e4;
+}
+
+.dropDown a {
+	display: none;
 }
 
 .container {
