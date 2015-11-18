@@ -1,11 +1,13 @@
 $(document).ready(function(){
-	var x = $(".dropDownFirst").width();
-	$(".element").css("height", $(".dropDownFirst").height());
-    $(".element").css("width", $(".dropDownFirst").width());
-    $(".dropDownFirst").mouseenter(function(){
-        $("dropDown").slideDown();
+	var a = $(".dropdown").width();
+	var b = $(".navbar").width();
+	var c = (b - 5*a)/2;
+	$(".button:first-of-type").css("margin-left", c);
+	
+    $(".dropdown").mouseenter(function(){
+        $(".dropdownlist").slideDown();
     });   
-    $(".menu").mouseleave(function(){
-        $("dropDown").slideUp();
+    $(".dropdown").mouseleave(function(){
+        $(".dropdownlist").slideUp();
     });    
 });

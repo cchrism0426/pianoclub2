@@ -40,7 +40,7 @@ ul {
 	float: left;
 }
 
-.button a, .dropdown a{
+.button a, .dropdown a {
 	display: block;
 	text-decoration: none;
 	color: #000;
@@ -48,8 +48,8 @@ ul {
 	height: 100%;
 }
 
-.button a:hover,  {
-	background-color: #e4e4e4;
+.button a:hover, .dropdown a:hover, .dropdownlist a:hover {
+	background-color: #abcdef;
 }
 
 .dropdownlist {
@@ -57,10 +57,7 @@ ul {
 	position: absolute;
 	z-index: 1;
 	width: 15%;
-}
-
-.dropdown:hover .dropdownlist{
-	display: block;
+	background-color: #fff;
 	border-style: solid;
 	border-width: 1px;
 }

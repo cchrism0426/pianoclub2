@@ -4,6 +4,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/pianoclub.css">
 		<link rel="stylesheet" type="text/css" href="css/meetingnotes.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/pianoClub.js"></script> 
 		<title>
 			Meeting Notes - Lynbrook Piano Club
 		</title>
@@ -11,16 +13,20 @@
 
 	<body>
 		<!-- NavBar -->
-		<div class="navbar">
+		<ul class="navbar">
 			<div id="logo"></div>
-			<div class="menuBar">
-				<div class="button"><a href="index.html">Home</a></div>
-				<div class="button"><a href="events.html">Events</a></div>
-				<div class="button"><a href="meetingnotes.html">Meeting Notes</a></div>
-				<div class="button"><a href="officers.html">Officers</a></div>
-				<div class="button"><a href="contact.html">Contact Us</a></div>
-			</div>
-		</div>
+			<li class="button"><a href="index.html">Home</a></li>
+			<li class="button"><a href="events.html">Events</a></li>
+			<li class="dropdown">
+				<a href="meetingnotes.html">Meeting Notes</a>
+				<ul class="dropdownlist">
+			        <li><a href='#'>Test1</a></li>
+			        <li><a href='#'>Test2</a></li>
+		        </ul>
+			</li>		
+			<li class="button"><a href="officers.html">Officers</a></li>
+			<li class="button"><a href="contact.html">Contact Us</a></li>
+		</ul>
 
 		<!-- meat -->
 		<div class = "container" >
