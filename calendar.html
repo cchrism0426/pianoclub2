@@ -6,22 +6,27 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/pianoClub.js"></script>
 		<title>
-			Events - Lynbrook Piano Club
+			Calendar - Lynbrook Piano Club
 		</title>
 	</head>
 
 	<body>
 		<!-- NavBar -->
+		<div id="logo"></div>
 		<ul class="navbar">
-			<div id="logo"></div>
-			<li id="offset"></li>
 			<li class="button"><a href="index.html">Home</a></li>
-			<li class="button"><a href="events.html">Events</a></li>
 			<li class="dropdown">
-				<a href="meetingnotes.html">Meeting Notes</a>
+				<div>Events</div>
 				<ul class="dropdownlist">
-			        <li><a href='#'>Test1</a></li>
-			        <li><a href='#'>Test2</a></li>
+			        <li><a href='calendar.html'>Calendar</a></li>
+			        <li><a href='signups.html'>Event Sign-Ups</a></li>
+		        </ul>
+			</li>		
+			<li class="dropdown">
+				<div>Meeting Notes</div>
+				<ul class="dropdownlist">
+			        <li><a href='presentations.html'>Test1</a></li>
+			        <li><a href='pow.html'>Test2</a></li>
 		        </ul>
 			</li>		
 			<li class="button"><a href="officers.html">Officers</a></li>
@@ -31,7 +36,10 @@
 		<!-- meat of webpage -->
 		<div class="container">
 			<div class="intro">
-				<h1>Upcoming Events</h1>
+				<h1>Piano Club Calendar</h1>
+			</div>
+			<div id="calender">
+				<iframe src="https://calendar.google.com/calendar/embed?src=p6e0sj9f64sp8s4l52gskeb59c%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 			</div>
 		</div>
 	</body>

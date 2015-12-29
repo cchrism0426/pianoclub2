@@ -1,20 +1,16 @@
 $(document).ready(function(){
-	// var a = $(".dropdown").width();
-	// var b = $(".navbar").width();
-	// var c = (b - 5*a)/2;
-	// $(".button:first-of-type").css("margin-left", c);
-	
     var b = $(window).width();
     $(".navbar").css("margin-left", .125*b);
     $(".navbar").css("margin-right", .125*b);
 
-    // $(".dropdown").mouseover(function(){    
-    //     $(".dropdownlist").slideDown();
-    //     event.stopPropagation();
-    // });
+    // $('.form-head').css("width", $('.form').width());
 
-    // $(".dropdown").mouseleave(function(){
-    //     $(".dropdownlist").slideUp();
-    //     event.stopPropagation();
-    // }); 
+    $('.form-head').click(function() {
+        $(this).next().slideToggle();
+    });
+
+    // if ($(".navbar").height() + $("#logo").height() + $(".container").height() + .05*$("body").height() < $(document).height()) {
+    //     var h = $(window).height() - $(".navbar").height() - $("#logo").height();
+    //     $(".container").css("height", h);
+    // }
 });
